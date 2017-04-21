@@ -86,9 +86,9 @@
 #define COOLANT_FLOOD_PORT  PORTB
 #define COOLANT_FLOOD_BIT   4
 #ifdef ENABLE_M7 // Mist coolant disabled by default. See config.h to enable/disable.
-  #define COOLANT_MIST_DDR   DDR?
-  #define COOLANT_MIST_PORT  PORT?
-  #define COOLANT_MIST_BIT   ?
+  #define COOLANT_MIST_DDR   DDRD
+  #define COOLANT_MIST_PORT  PORTD
+  #define COOLANT_MIST_BIT   5
 #endif  
 
 // Define user-control controls (cycle start, reset, feed hold) input pins.
