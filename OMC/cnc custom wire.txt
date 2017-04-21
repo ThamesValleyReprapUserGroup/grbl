@@ -1,0 +1,17 @@
+Plug A (close to thermistor input)  ->>>>>>>>>>>>>> DSM pin 
+
+Pin 6    ->>>>>>>>>>>>>> DSM 1 Pin 5 (Step X)
+Pin 4    ->>>>>>>>>>>>>> DSM 1 Pin 6 (Step Y)
+Pin 5    ->>>>>>>>>>>>>> DSM 2 Pin 6 (Step Z)
+
+Pin 8    ->>>>>>>>>>>>>> DSM 1 Pin 8 (Spindle enable 12V)
+
+Plug B
+
+Pin 6    ->>>>>>>>>>>>>> DSM 1 Pin 3 (Dir X)
+Pin 4    ->>>>>>>>>>>>>> DSM 1 Pin 4 (Dir Y)
+Pin 3    ->>>>>>>>>>>>>> DSM 2 Pin 4 (Dir Z)
+
+Pin 8    ->>>>>>>>>>>>>> DSM 2 Pin 8 (Spindle Direction 12V)
+
+Remove R2-R4 and C3-C5 (thermistor bits)
