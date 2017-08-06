@@ -131,7 +131,7 @@
 //*********CHECK 2 Lines above*********
       
   // NOTE: On the 328p, these must be the same as the SPINDLE_ENABLE settings.
-  #define SPINDLE_PWM_DDR	  DDRB
-  #define SPINDLE_PWM_PORT  PORTB
-  #define SPINDLE_PWM_BIT	  3
+  #define SPINDLE_PWM_DDR	  DDRD
+  #define SPINDLE_PWM_PORT  PORTD
+  #define SPINDLE_PWM_BIT	  4
 #endif // End of VARIABLE_SPINDLE
